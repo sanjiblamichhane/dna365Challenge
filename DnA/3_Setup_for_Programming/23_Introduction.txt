@@ -1,0 +1,22 @@
+DATA STRUCTURE
+    - main memory 
+    - arrangement/organization of collection of data items for later use.
+    -  efficient operation 
+
+
+DATABASES
+    - commercially orgranized data
+    - relational(tables have relationship between them) data stored somewhere on disk
+    - retrieved by applications easily
+
+
+DATA WARESHOUS
+    - large sized data, maynot be used daily 
+    - operational data vs legacy data
+    - operational data are used daily
+    - legacy datas are historical data saved for later use -- much like archive
+    - algorithms used for accessing these datas are DATA MINING ALGORITHMS
+
+BIG DATA
+    - huge sized data accumulating day by day
+    - it's something that developed as internet users increased
