@@ -1,0 +1,5 @@
+Found :  8 at position :1
+Found :  3 at position :6
+ Found count for 3 is: 4
+ Found count for 8 is: 1
+Since 10is not on the, Input Error
