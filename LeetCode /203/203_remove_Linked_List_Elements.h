@@ -45,7 +45,7 @@ void Remove(int x)
 				Array[i+1] = temp;
 				cout<<"The item "<<"is now at: "<<i<<endl;
 			}
-			n--;
+			n--; //remember to reduce the size of array after deletion
 			cout<<"New Array is: ";
 			for(i=0; i<n; i++)
 			{
