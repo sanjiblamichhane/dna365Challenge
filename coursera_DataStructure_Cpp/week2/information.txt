@@ -1,0 +1,7 @@
+KEY CONCEPTS:
+	- Pointers and dereferencing
+	- Local(stack) memory
+	- Allocated(heap) memory
+FOCUS:
+	- C++ memory model
+

@@ -1,4 +1,5 @@
 #include <iostream>
+#include "w2.h"
 using namespace std;
 
 int main()
