@@ -1,0 +1,51 @@
+- In C++, we have the control over the memory and lifecycle of every variables.
+- By default, variables live in stack memory
+
+A VARIABLE:
+	- always has four things:
+		i. a name
+		ii. a type
+		iii. a value
+		iv. memory address
+	
+	Example: 
+		int primeNumber = 5;
+
+& OPERATOR:
+	- returns the memory address of a variable.
+	Example:
+		int num = 7;
+
+		cout << &num << endl;
+
+		--> the output should be the address of the number 7.
+
+		--> it will look something like 0xfffff
+						^
+						this is a very large number
+STACK MEMORY:
+	- default place where variables are placed in C++
+	- always starts from high addresses and grows down.
+	- choosed by system designers to go from high to low.
+
+
+
+POINTER:
+	- a variable that stores the memory address of the data.
+	Example:
+		int * p = &num;
+		    ^
+		    integer asterick is the pointer.
+	
+	
+	DEFERENCE OPERATOR:
+		- given a pointer, 
+		- a level of indirection can be removed
+		- with the use of deference operator *.
+
+		Example:
+			int num = 7;
+			int *p = &num;
+			int value_in_num = *p;
+			*p = 42;
+

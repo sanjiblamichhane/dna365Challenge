@@ -1,0 +1,45 @@
+Makefile:	
+	- this is a type of file
+	- just like a script 
+	- tells the compiler how to build 
+	- gives instructions to the compiler and linker about which source file to use.
+	- Use Case:
+		$ make
+		
+Sudo:
+	- stands for superuser-do
+	- this command is used as prefix command
+	- this will let us temporarily execute teh command with system adminstrator permissions
+	- other term: root user
+	- potentially a dangerous command
+
+Common Commands:
+	
+	man:
+		- stands for manual
+		- shows help information for other commands.
+		- Eg: man man dispalys the help information for man itself.
+	
+	pwd:
+		- print working directory
+	
+	ls:	
+		- lists the directory contents
+		
+		ls-hal:
+			- view long format listing including modification dates and hidden files.
+	cd:
+		- change directory
+
+	cp: 	
+		- copy a file
+	
+	mkdir:
+		- make a new subdirectory
+	
+	mv:	
+		- move or rename a file.
+	
+	rm:
+		- remove or delete a file.
+		
