@@ -49,3 +49,5 @@ POINTER:
 			int value_in_num = *p;
 			*p = 42;
 
+			- this is like assigning different value to already assigned variable.
+

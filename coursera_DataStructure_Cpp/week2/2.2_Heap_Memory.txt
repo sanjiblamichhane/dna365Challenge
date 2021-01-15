@@ -1,0 +1,47 @@
+HOW'S HEAP MEMORY DIFFERENT FROM STACK MEMPRY?
+	- It allows us to create memory
+		independent of the lifecycle of 
+		a function unlike stack memory.
+	- If memory needs to exist for longer than 
+		the lifecycle of the function, 
+		we have to create heap memory.
+
+	- The ONLY way to create heap memory in C++ is
+		with the new operator.
+
+	- The new operator returns a pointer to the 
+		memory storing the data
+		- not an instance of the data itself.
+
+C++'s NEW OPERATOR:
+	- It will do three things.
+	1. Allocate the memory on the heap for DS
+	2. Initialize the DS
+	3. Return a pointer to the start of the DS
+
+	- The memory is only ever reclaimed by the 
+		system when the pointer is 
+		passed to the delete operator.
+	
+	Example:
+		int  *numPtr = new int;
+		|__________|   |_____|
+		      ^           ^
+		      stack --->  heap
+
+NULL POINTER:
+	- if we ever access this, we get segmentation error.
+
+ARROW OPERATOR: (->):
+	- allows us to access the contents of a class.
+	- when an object is stored via a pointer, access
+		can be made to member functions using the
+		(->) operator.
+	Example:
+		c -> getVolume();
+			...
+			identical to 
+			...
+		(*c).getVolume();
+
+
