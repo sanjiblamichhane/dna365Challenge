@@ -3,7 +3,7 @@
 
 import six
 import sys
-import sys.modules['sklearn.externals.six'] = six
+sys.modules['sklearn.externals.six'] = six
 import mlrose 
 import numpy as np
 
@@ -32,7 +32,7 @@ print("The fitness at the best state is: ", best_fitness)
 
 # Solve problem using genetic algorithm
 
-best_state, best_fitness = mlrose.generic_alg(problem_fit, mutatio_prob = 0.2, max_attempts = 100, random_state = 2)
+best_state, best_fitness = mlrose.genetic_alg(problem_fit, mutation_prob = 0.2, max_attempts = 100, random_state = 2)
 
 print("The best state found is: ", best_state)
 
