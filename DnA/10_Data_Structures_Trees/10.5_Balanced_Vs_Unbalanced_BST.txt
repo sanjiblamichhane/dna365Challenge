@@ -1,0 +1,21 @@
+Unbalanced Tree Case:
+
+			45
+		       /  \
+		     23    46
+		             \
+			      56
+			       \ 
+			        87
+			         \
+				  89
+
+Q. What if the tree is not exactly even?
+	- this is a situation in which our list keeps adding to the right
+	- eventually we would end up with a linked list as opposed to BST
+
+Q. Why an unbalanced BST is bad?
+	- b/c in its worst case, it would be O(n)
+	- View Image at: https://www.bigocheatsheet.com/
+	
+	

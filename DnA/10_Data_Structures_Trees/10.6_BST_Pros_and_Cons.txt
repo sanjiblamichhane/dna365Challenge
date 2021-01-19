@@ -1,0 +1,18 @@
+BST: Binary Search Tree
+
+Pros:				
+	- Better than O(n) assuming that they're balanced
+	- Ordered
+	- Flexible Size: b/c we can place the node anywhere in memory
+
+Cons:
+	- No O(1) operations
+	- Compared to an  array, a lookup would be a lot faster
+	- Insert and Delete will be a lot faster
+	- Compared to Hash Table, 
+		- BST has sorted data
+		- structure of parent/child relationship
+	- Remember they're not the fastest for all operations.
+
+
+	

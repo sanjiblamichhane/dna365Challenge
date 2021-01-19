@@ -1,0 +1,31 @@
+This is the most common Data Structure.
+
+What is a BST?
+	- they are good at searching
+	- great for comparing things.
+	
+	Why is it better than Hash table?
+		- because it has relationships
+		- parent/child relationship
+		- BST preserve these relationships
+
+		Rules:
+			- all child node on the right should be greater than the one on the left.
+			- a node can only have upto two children
+			- advatage: searching and lookup is very easy. 
+
+			Example:
+					         101
+					       /     \
+					      33      105
+					     /  \     /   \
+					   9    37   104  144
+			lookup() - O(log N)
+			insert() - O(log N)
+			delete() - O(log N)
+
+RESOURCE:
+	visit visualgo.net 
+
+		
+
