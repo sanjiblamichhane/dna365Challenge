@@ -1,0 +1,4 @@
+ Congratulations! The check() method of the Pair class
+has execuded. But this isn't enough to guarantee 
+that your code is correct
+If you can see this text, the system has not crashed it yet.

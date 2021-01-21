@@ -4,8 +4,7 @@ using namespace std;
 
 int main()
 {
-	Pair *p;
-	p = pairFactory();
+	Pair *p = pairFactory();
 	
 	// This function call should work without crashing:
 	p -> check();
@@ -13,6 +12,6 @@ int main()
 	// Deallocating the heap memory. ( Assuming it was made on the heap)
 	delete p;
 
-	cout << "If you can see this text, the system has not crashed it yet." << endl;
+	o_f << "If you can see this text, the system has not crashed it yet." << endl;
 	return 0;
 }
