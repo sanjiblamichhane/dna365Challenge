@@ -1,0 +1,36 @@
+Complete the function solveMeFirst to compute the sum of two integers.
+
+EXAMPLE
+
+a = 7
+b = 3
+
+Return 10
+
+FUNCTION DESCRIPTION
+
+Complete the solveMeFirst function in the editor below.
+
+solveMeFirst has the following parameters:
+
+int a: the first value
+int b: the second value
+
+Returns
+- int: the sum of  a and b
+
+CONSTRAINTS
+1 < a, b <= 1000
+
+SAMPLE INPUT
+
+a = 2
+b = 3
+
+SAMPLE OUTPUT
+
+5
+
+Explanation
+
+2 + 3 = 5
