@@ -1,0 +1,8 @@
+POINTER:
+	
+POINTER VARIABLES:
+	
+	example: double *my_first_ptr;
+				^
+				this is pointer variable
+				- it can hold the memory address of a double variable.
