@@ -1,0 +1,10 @@
+PYTHON 'IF NOT' SYNTAX
+
+https://stackoverflow.com/questions/16739555/python-if-not-syntax
+
+CONSTRUCT BINARY TREE FROM PREODER AND INORDER TRAVERSAL 
+https://www.youtube.com/watch?v=PoBGyrIWisE&t=24s&ab_channel=Jenny%27slecturesCS%2FITNET%26JRFJenny%27slecturesCS%2FITNET%26JRF
+
+
+FUNCTION ANNOTATION
+https://www.python.org/dev/peps/pep-3107/
