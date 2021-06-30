@@ -1,0 +1,71 @@
+Why do we need Linked List?
+
+Problem with Array:
+	- fixed size
+
+
+
+KEY IDEAS:
+
+1. WHAT IS A LINKED LIST?
+	- a collection of node
+	- each node contains data and pointer to next node
+	- created inside heap.
+
+	- First/Header: 
+		- pointer pointing to first node.
+
+
+2. WHAT IS A NODE?
+
+		Node
+	 -----------
+	|data | next|
+	 -----------
+		^ 	   ^
+		|      |
+		|      (pointer of node-type)
+		|
+		(int, float,etc.)
+
+3. NODE STRUCTURE
+	- contains data and pointer
+	- in C-language:
+		struct Node()
+		{
+			int data;// (2 bytes)
+			struct Node *next; //(2 bytes) 
+			// 			^
+			// 			pointer of own-type
+			// 			aka - self-referencial structure
+		};
+		// Total size = 2+2 = 4 bytes
+
+	- in Cpp: use class
+
+4. CREATE A NODE
+	- must have a pointer first
+
+		Node
+	 -----------
+	|data | next|
+	 -----------
+
+	struct Node *p; // declare pointer variable
+	// create pointer in heap
+	p = (struct Node *)malloc(sizeof(struc Node));
+
+
+	// in Cpp
+	p = new Node;
+
+5. ACCESS A NODE
+	
+	- use arrow to access a node
+	Example:
+		p -> data = 10; // 
+		p -> next =0; // null element next to node p
+
+
+
+
