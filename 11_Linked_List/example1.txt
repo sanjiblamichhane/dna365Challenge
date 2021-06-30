@@ -1,0 +1,16 @@
+// do not execute this file
+// just for example
+
+struct Node *p, *q;
+
+//1. value in q == value in p
+//	 - two pointers pointing to same node
+q = p;
+
+//2.point q to next node of p
+q = p -> next;
+
+//3. point p to the next node of p
+p = p -> next;
+
+
