@@ -1,0 +1,16 @@
+// example -- do not execute
+// display a linkedlist example
+
+// linked list
+[200] -> [8|210| -> [3|270] -> [7|300] -> [12|350] -> [9|0]
+
+
+struct Node *p = first;
+
+// use while when we don't know when to end
+while( p!= 0){
+	// print entire linked list
+	printf("%d", p -> data);
+	// move to next node
+	p = p -> next;
+}
